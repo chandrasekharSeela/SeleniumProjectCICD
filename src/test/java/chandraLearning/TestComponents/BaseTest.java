@@ -58,7 +58,6 @@ public class BaseTest {
            case "Chrome":
            default:{
                WebDriverManager.chromedriver().setup();
-
                ChromeOptions options = new ChromeOptions();
                gettingBrowserOptions(browserName);
                optional.forEach(options::addArguments);
