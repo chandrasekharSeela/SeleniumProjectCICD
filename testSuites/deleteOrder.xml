@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite  parallel="tests" name="All Test Suite" >
+
+    <listeners>
+        <listener class-name="chandraLearning.TestComponents.Listeners"/>
+    </listeners>
+
+    <test thread-count="2" name="DeleteOrders">
+        <classes>
+            <class name="chandraLearning.tests.SubmitOrderTest"> </class>
+        </classes>
+    </test>
+</suite>

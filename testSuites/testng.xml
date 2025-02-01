@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite   name="All Test Suite" >
+
+    <listeners>
+        <listener class-name="chandraLearning.TestComponents.Listeners"/>
+    </listeners>
+
+    <test thread-count="2" name="SubmitOrderTest">
+        <classes>
+            <class name="chandraLearning.tests.SubmitOrderTest"> </class>
+        </classes>
+    </test>
+    <test thread-count="2" name="StandAloneTest">
+        <classes>
+            <class name="chandraLearning.tests.StandAloneTest"> </class>
+        </classes>
+    </test>
+    <test thread-count="2" name="ErrorValidations">
+        <classes>
+            <class name="chandraLearning.tests.ErrorValidations"> </class>
+        </classes>
+    </test>
+</suite>
