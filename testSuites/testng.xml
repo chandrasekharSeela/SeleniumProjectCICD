@@ -5,7 +5,6 @@
     <listeners>
         <listener class-name="chandraLearning.TestComponents.Listeners"/>
     </listeners>
-
     <test thread-count="2" name="SubmitOrderTest">
         <classes>
             <class name="chandraLearning.tests.SubmitOrderTest"> </class>
