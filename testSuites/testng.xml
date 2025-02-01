@@ -16,6 +16,7 @@
             <class name="chandraLearning.tests.RestAssuredJava"> </class>
         </classes>
     </test>
+
     <test thread-count="2" name="StandAloneTest">
         <classes>
             <class name="chandraLearning.tests.StandAloneTest"> </class>
